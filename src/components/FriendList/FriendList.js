@@ -4,7 +4,7 @@ import { FriendListItem } from './FriendListItem';
 export const FriendList = ({ friends }) => {
   return (
     <section className="friends">
-      <ul class="friend-list">
+      <ul className="friend-list">
         {friends.map(friend => (
           <FriendListItem key={friend.id} friend={friend} />
         ))}
@@ -14,7 +14,7 @@ export const FriendList = ({ friends }) => {
 };
 
 FriendList.propTypes = {
-  friends: PropTypes.array(
+  friends: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
     })

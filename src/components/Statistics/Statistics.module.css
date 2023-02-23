@@ -22,8 +22,6 @@
   margin: 0;
   grid-auto-rows: minmax(100px, auto);
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
-  border-top: 1px solid rgb(233, 231, 231);
 }
 
 .item {
@@ -33,7 +31,7 @@
   justify-content: center;
   height: 180px;
   line-height: 1.5;
-  border-right: 1px solid rgb(233, 231, 231);
+  color: aliceblue;
 }
 .item:last-child {
   border-right: none;
@@ -44,8 +42,10 @@
   font-weight: 500;
   padding-top: 10px;
   padding-bottom: 20px;
+  text-shadow: 2px 2px #151515;
 }
 
 .percentage {
   font-weight: 700;
+  text-shadow: 2px 2px #151515;
 }

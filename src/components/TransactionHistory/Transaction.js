@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 export const Transaction = ({ item: { id, type, amount, currency } }) => {
-  console.log(type);
   return (
     <tr key={id}>
       <td>{type}</td>

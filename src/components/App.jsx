@@ -29,7 +29,7 @@ export const App = () => {
       />
       <Statistics title="Upload status" stats={data} />
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
